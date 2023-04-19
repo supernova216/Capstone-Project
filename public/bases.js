@@ -20,6 +20,7 @@ const addBases = (base) => {
     baseSection.innerHTML = `
         <p class='name'>name: ${base.unit_name}</p>
         <p class='class'>class: ${base.class}</p>
+        <p class='level'>level: ${base.level}</p>
         <p class='hp'>hp: ${base.hp}</p>
         <p class='str'>str: ${base.str}</p>
         <p class='mag'>mag: ${base.mag}</p>
