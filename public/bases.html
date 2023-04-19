@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE Engage Bases</title>
+    <link rel = 'stylesheet' href = "index.css">
+</head>
+<body>
+    <nav> 
+        <ol>
+            <li class = 'crumb'><a href='./bases.html'>Bases</a></li>
+            <li class = 'crumb'><a href='./index.html'>Growths</a></li>
+            <li class = 'crumb'><a href='./caps.html'>Caps</a></li>
+        </ol>
+    </nav>
+       
+        <h1>Fire Emblem Engage Bases</h1> 
+
+    <main>
+    
+        <label for="unit-base-select">Select unit:</label>
+        <select id="unit-base-select"></select> 
+    
+        <button id="base">Look up bases!</button>
+        <section id="base-container"></section>
+        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="bases.js"></script>
+    
+    </main>
+
+</body>
+</html>

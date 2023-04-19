@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://nintendosoup.com/wp-content/uploads/2022/11/FE-Engage-Lithos-1038x576.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:red;
+    font-weight: bold;
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    margin-left:5vw
+}
+
+h1 {
+    color:red;
+}
+
+ol {
+    padding-left: 0;
+}
+
+.crumb {
+    margin-right: 2em;
+    display: inline;
+}
+
+a {
+    color:white;
+}
